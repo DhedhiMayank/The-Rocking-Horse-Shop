@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --bg-color-1: hsl(39deg 32% 59%);
     --bg-color-2: hsl(336deg 77% 24%);
-    --font-color-1:hsl(19deg 25% 22%);
-    --shadow-color:hsl(0deg 0% 82%);
-    --font-color-2:hsl(332deg 19% 84%);
-    --font-color-3:hsl(332deg 25% 69%);
+    --font-color-1: hsl(19deg 25% 22%);
+    --shadow-color: hsl(0deg 0% 82%);
+    --font-color-2: hsl(332deg 19% 84%);
+    --font-color-3: hsl(332deg 25% 69%);
+    --star-color: hsl(35deg 100% 51%);
+    --bg-color-3: #b8a074;
 
 }
 
@@ -17,21 +20,25 @@ body {
     width: 100%;
     height: 40vw;
 }
-.acustom{
+
+.acustom {
     padding-left: 22px;
     margin-left: 2px;
 }
-.unrivalled_h3{
+
+.unrivalled_h3 {
     font-weight: 500;
     color: hsl(12deg 8% 46%);
 
 }
-.unrivalled_detailes{
+
+.unrivalled_detailes {
     font-weight: 500;
     color: var(--font-color-1);
 
 }
-.Custom{
+
+.Custom {
     margin-left: 10px;
 }
 
@@ -42,10 +49,12 @@ body {
     height: 15vw;
     position: relative;
 }
+
 .anew {
     margin-left: 60px;
 }
-.special{
+
+.special {
     position: relative;
     margin-left: 32px;
 
@@ -59,6 +68,7 @@ body {
 .Inside_horses {
     transform: translate(5px, 12px) scale(1.1);
 }
+
 .sdow {
     height: 13px;
     width: 96px;
@@ -70,18 +80,22 @@ body {
     box-shadow: 0 0 10px 11px hsl(0deg 0% 82%);
     transform: rotateX(45deg);
 }
-.Aspecial{
+
+.Aspecial {
     position: absolute;
     top: 71px;
     left: 24px;
 }
+
 .asd {
     margin-left: 0px;
 }
+
 .efg {
     margin-left: -32px;
 }
-.horse_bg{
+
+.horse_bg {
     background-image: url(/images/horse.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,21 +103,127 @@ body {
     /* position: relative; */
     height: 525px;
 }
-.abcd1{
+
+.abcd1 {
     padding-top: 75px;
 }
-.horse_bg_h3{
+
+.horse_bg_h3 {
     color: var(--font-color-2);
     font-family: 'Noto Serif NP Hmong', serif;
 
 }
-.abcd2{
+
+.abcd2 {
     margin-top: 38px;
 }
-.abcd3{
+
+.abcd3 {
     margin: 50px;
 }
-.horse_bg p{
+
+.horse_bg p {
     color: var(--font-color-3);
     font-family: 'Noto Serif NP Hmong', serif;
+}
+
+.my_Slider {
+    position: relative;
+    text-align: center;
+}
+
+.my_Slider img {
+    width: 100vw;
+    height: auto;
+}
+
+.my_Slider .star {
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 17%;
+    left: 50%;
+    color: var(--star-color);
+}
+
+.slider_contain {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    color: white;
+    font-style: italic;
+    font-size: 19px;
+
+}
+
+.slider_contain p {
+    white-space: pre;
+}
+
+.slider_address {
+
+    top: 64%;
+    font-style: normal;
+
+}
+
+.slider_button {
+    top: 80%;
+}
+
+.slider_button button {
+    height: 12px;
+    width: 12px;
+    border-radius: 25%;
+    background-color: white;
+    border: none;
+}
+
+.Featured_Product {
+    height: 100vh;
+}
+
+.Featured_Product h2 {
+    text-align: center;
+    color: var(--bg-color-2);
+    padding: 63px 0;
+    font-family: serif;
+    font-size: 50px;
+}
+
+.Featured_Product .arrow {
+    color: var(--bg-color-1);
+}
+
+.download_brocher {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+.download_brocher .d_b_inside {
+    height: 72px;
+    background-color: var(--bg-color-3);
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: 0 0 0px 1px var(--bg-color-3);
+}
+.d_b_icn{
+    padding: 0px 0px 10px 30px;
+
+}
+.d_b_btn {
+    background-color: var(--bg-color-2);
+    border-radius: 48%;
+    padding: 12px 15px;
+    border: none;
+}
+.d_b_inside p {
+    font-size: 28px;
+    font-family: initial;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 6px;
 }
