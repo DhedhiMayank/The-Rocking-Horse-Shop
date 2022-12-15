@@ -116,8 +116,9 @@ body {
     color: var(--bg-color-2);
     text-decoration: none;
     font-size: 18px;
-    
+
 }
+
 .n_l_1 {
     padding-left: 66px;
 }
@@ -153,24 +154,24 @@ body {
 .unrivalled_h3 {
     font-weight: 500;
     color: hsl(12deg 8% 46%);
-
+    white-space: pre;
 }
 
 .unrivalled_detailes {
     font-weight: 500;
     color: var(--font-color-1);
-
 }
 
 .Custom {
     margin-left: 10px;
 }
 
+
 .horses {
     border: 1px solid var(--bg-color-1);
-    width: 72%;
-    padding: 8px;
-    height: 15vw;
+    width: 150px;
+padding: 8px;
+height: 180px;
     position: relative;
 }
 
@@ -187,10 +188,13 @@ body {
 .horse_h4 {
     font-weight: 400;
     color: var(--bg-color-2);
+    font-size: 20px;
 }
 
+
+
 .Inside_horses {
-    transform: translate(5px, 12px) scale(1.1);
+   
 }
 
 .sdow {
@@ -224,7 +228,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* position: relative; */
     height: 525px;
 }
 
@@ -234,7 +237,7 @@ body {
 
 .horse_bg_h3 {
     color: var(--font-color-2);
-    font-family: 'Noto Serif NP Hmong', serif;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -246,9 +249,39 @@ body {
     margin: 50px;
 }
 
+@media screen and (max-width: 1000px) {
+    .abcd_img {
+        transform: translateX(-20px);
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+    .abcd_img {
+        transform: translateX(-40px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .abcd_img {
+        transform: translateX(-70px);
+    }
+
+    .horse_bg_h3 {
+        color: hsl(0, 0%, 100%);
+    }
+
+}
+
 .horse_bg p {
     color: var(--font-color-3);
     font-family: 'Noto Serif NP Hmong', serif;
+}
+
+@media screen and (max-width: 576px) {
+    .horse_bg p {
+        color: hsl(0, 0%, 100%);
+    }
 }
 
 .my_Slider {
@@ -278,11 +311,48 @@ body {
     color: white;
     font-style: italic;
     font-size: 19px;
+    width: 100%;
 
 }
 
-.slider_contain p {
-    white-space: pre;
+@media screen and (max-width:992px) {
+
+    .slider_contain h4,
+    p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+
+    .slider_contain h4,
+    p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .slider_contain p {
+        font-size: 12px;
+        transform: translateY(19px);
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .my_Slider .star {
+        font-size: 10px;
+        transform: translate(-50%, -157%);
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .slider_button button {
+        transform: scale(0.8);
+    }
 }
 
 .slider_address {
@@ -302,6 +372,17 @@ body {
     border-radius: 25%;
     background-color: white;
     border: none;
+}
+
+@media screen and (max-width: 576px) {
+    .slider_button {
+        top: 85%;
+    }
+
+    .slider_button button {
+        height: 10px;
+        width: 10px;
+    }
 }
 
 .Featured_Product {
