@@ -2,12 +2,19 @@
 <html lang="en">
 
 <head>
+    <!-- required meta tags -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rocking Horse Shop</title>
     <link rel="icon" href="./images/favicon.ico">
+
+    <!-- css for icon(font-awesome) -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap css -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -16,39 +23,69 @@
 </head>
 
 <body>
-    <header class="horse_header">
+    <header class="horse_intro">
         <p>2021 DEALS: Lorem ipsum dolor sit,Lorem, ipsum dolor,<a href="#">GET STARTED</a></p>
         <nav class="row">
             <div class="col-3 nav_horse_logo"><img src="./images/Logo (no background).png" alt="image"></div>
             <div class="col-9">
-                <div class="row nav_0">
-                    <div class="col-4"></div>
-                    <div class="col-3 nav_1">+44(0)1759 368737&nbsp; |</div>
-                    <div class="col-3 nav_2"><p>info@rockinghorse.co.uk &nbsp;|</p></div>
-                    <div class="col-2 nav_3">Contact US</div>
+                <div class=" nav_0  row">
+                    <div class="col-12 text-end">
+                        <a href="tel:+44(0)1759 368737">+44(0)1759 368737 |</a>
+                        <a href="mailto:info@rockinghorse.co.uk">info@rockinghorse.co.uk |</a>
+                        <a href="#">Contact US</a>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-7 nav_heading"><h1>The Rocking Horse Shop</h1><p>Designers,Makers & Restorers of Beautiful Rocking Horses since 1976</p></div>
-                    <div class="col-3 nav_search"><input type="text"><button><img src="./images/search-icon.png" alt="search"></button></div>
-                    <div class="col-1 nav_icon_1"><button type="submit"><img src="./images/profile-icon.png" alt="profile"></button></div>
-                    <div class="col-1 nav_icon_2"><button type="submit"><img src="./images/shop-icon.png" alt="shop"></button></div>
+                    <div class="col-12 col-xl-7 nav_heading">
+                        <h1>The Rocking Horse Shop</h1>
+                        <p>Designers,Makers & Restorers of Beautiful Rocking Horses since 1976</p>
+                    </div>
+                    <div class="d-flex col-xl-5 justify-content-end align-items-center nav_search"><form ><input class="form-control " type="search" placeholder="Search"><button
+                            class="btn nav_search_icn"><img src="./images/search-icon.png" alt="search"></button></form>
+                        <div class=" nav_icon_1"><button class="btn" type="submit"><img src="./images/profile-icon.png"
+                                    alt="profile"></button></div>
+                        <div class=" nav_icon_2"><button class="btn" type="submit"><img src="./images/shop-icon.png"
+                                    alt="shop"></button></div>
+                    </div>
+
                 </div>
             </div>
-            <div class="row  p-3 navbar_list_0">
-                <div class="col-2"></div>
-                <div class="col-10 row navbar_list">
-                    <div class="col-1 n_l_1"><a href="#">SHOP</a></div>
-                    <div class="col-3 n_l_2"><a href="#">HAND CARVED HORSES</a></div>
-                    <div class="col-2 n_l_3"><a href="#">RESTORATIONS</a></div>
-                    <div class="col-2 n_l_4"><a href="#">MAKE YOUR OWN</a></div>
-                    <div class="col-3 n_l_5 "><a href="#">CARVING COURSES</a></div>
-                    <div class="col-1 n_l_6"><a href="#">SALE</a></div>
-                    
+            <div class="navbar_list_0">
+              
+                <div class="navbar navbar-expand-lg position-absolute navbar-light end-0 pe-3" >
+                    <div class="container-fluid justify-content-end">
+                      
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">SHOP</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">HAND CARVED HORSES</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">RESTORATIONS</a>
+                          </li> 
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">MAKE YOUR OWN</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">CARVING COURSES</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <a class="nav-link" href="#">SALE</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                 </div>
             </div>
 
         </nav>
-    </header >
+    </header>
     <div class="main_picture ">
         <img src="./images/three-rocking-horses.png" alt="three-rocking-horses">
 
@@ -58,17 +95,17 @@
 
             <div class="acustom col-xl-3 row text-start">
                 <h3 class="unrivalled_h3">Unrivalled Experience of
-the Craft
+                    the Craft
                 </h3>
                 <p class="unrivalled_detailes">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit deleniti, voluptatem nostrum
-                    nisi
-                    ipsa dicta impedit quaerat aspernatur laboriosam sit omnis dolor nobis, magni natus?
+                    Every horse is a hand crafted individual; ready-to-ride horses are available from
+                    stock, or you
+                    can commission a 'Special', made to your own preferred size and style
                 </p>
             </div>
 
-            <div class="Custom row col-lg-12 col-xl-9">
-                <div class="col col-md col-lg-3 col-xl-3">
+            <div class="Custom row  col-xl-9">
+                <div class="col-xs-12 col-sm-6 col-md-3 ">
                     <div class="horses anew">
                         <h4 class="horse_h4">Hand Carved Horses</h4>
                         <img class="Inside_horses" src="./images/horse1.png" alt="horse1">
@@ -77,7 +114,7 @@ the Craft
                 </div>
 
 
-                <div class=" col col-md col-lg-3 col-xl-3">
+                <div class=" col-xs-12 col-sm-6 col-md-3 casd">
                     <div class="horses special">
                         <h4 class="horse_h4">Restorations</h4>
                         <img class="Inside_horses Aspecial" src="./images/horse2.png" alt="horse1">
@@ -86,8 +123,8 @@ the Craft
                 </div>
 
 
-                <div class="col col-md col-lg-3 col-xl-3 asd">
-                    <div class="horses ">
+                <div class="col-xs-12 col-sm-6 col-md-3  asd">
+                    <div class="horses bcd">
                         <h4 class="horse_h4">Make your own</h4>
                         <img class="Inside_horses" src="./images/cutter3.png" alt="horse1">
                         <div class="sdow"></div>
@@ -95,7 +132,7 @@ the Craft
                 </div>
 
 
-                <div class="col col-md col-lg-3 col-xl-3">
+                <div class="col-xs-12 col-sm-6 col-md-3 basd">
                     <div class="horses efg">
                         <h4 class="horse_h4">Carving Courses</h4>
                         <img class="Inside_horses" src="./images/horse4.png" alt="horse1">
@@ -146,7 +183,8 @@ the Craft
         </div>
         <div class="slider_contain text-center">
             <h4 class="mx-3 ">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odit repellendus
-                maiores, vero magnam Lorem ipsumsit,consectetur adipisicing.Quidem nulla molestias porro enim quis numquam"</h4>
+                maiores, vero magnam Lorem ipsumsit,consectetur adipisicing.Quidem nulla molestias porro enim quis
+                numquam"</h4>
         </div>
         <div class="slider_address slider_contain text-center">
             <p>Lorraine wood, North Newbald</p>
@@ -300,6 +338,9 @@ the Craft
         </div>
 
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
