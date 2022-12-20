@@ -86,6 +86,7 @@ body {
 .nav_icon_1 {
     padding: 0 36px;
 }
+
 /* || navbar menu */
 
 .navbar_list_0 {
@@ -94,16 +95,19 @@ body {
     height: 57px;
     position: relative;
 }
+
 .navbar_list_0 .container-fluid {
-    
+
     background-color: #ececec;
     z-index: 5;
 }
-.navbar_list_0 li a{
+
+.navbar_list_0 li a {
     color: var(--bg-color-2);
     font-size: 18px;
     letter-spacing: 0.2px;
 }
+
 .main_picture img {
     width: 100%;
     height: 40vw;
@@ -329,31 +333,25 @@ body {
 .download_brocher .d_b_inside {
     height: 72px;
     background-color: var(--bg-color-3);
-    width: 50%;
     border-radius: 12px;
     box-shadow: 0 0 0px 1px var(--bg-color-3);
-}
-
-.d_b_icn {
-    padding: 0px 0px 10px 30px;
-
 }
 
 .d_b_btn {
     background-color: var(--bg-color-2);
     border-radius: 48%;
-    padding: 12px 15px;
+    padding: 10px 11px;
     border: none;
 }
 
 .d_b_inside p {
-    font-size: 28px;
+    font-size: 24px;
     font-family: initial;
     margin-top: 10px;
     color: white;
     text-transform: uppercase;
     font-weight: 800;
-    padding: 6px;
+    padding: 9px 6px 6px 19px;
 }
 
 .Horizontal_line {
@@ -363,16 +361,15 @@ body {
 
 footer {
     width: 100%;
-    height: 44vW;
-    border-bottom: 14px solid var(--bg-color-1);
+    border-bottom: 10px solid #b8a075;
 }
 
 .Social_media {
-    padding-top: 25px;
+    padding: 25px 15px 15px 15px;
 }
 
-.S_M_fb {
-    padding: 18px 0;
+.s_m_fb_border {
+
     border-right: 1px solid silver;
 
 }
@@ -380,21 +377,21 @@ footer {
 .S_M_fb i {
     color: #3b5998;
     font-size: 39px;
-    transform: translate(30px, 20px);
+
 }
 
 .S_M_fb p {
     color: #c1c1c1;
     padding-top: 4px;
     font-size: 18px;
-    transform: translate(30px, 20px);
+
 }
 
 .S_M_fb img {
     vertical-align: middle;
     height: 35px;
     width: 35px;
-    transform: translate(30px, 20px);
+
 }
 
 .S_M_fb .special0 {
@@ -404,25 +401,23 @@ footer {
 .ftr_clr {
     background-color: #cfcecc;
     margin-top: 40px;
-    padding-top: 50px;
+    padding: 50px 50px 25px 50px;
 }
 
-.footer_mail {
-    padding-left: 100px;
-}
+
 
 .f_mail {
     background-color: var(--bg-color-2);
     border-radius: 10px;
+    width: 258px;
 }
 
-.f_mail_1 {
-    padding-top: 12px;
-    padding-left: 2px;
+.f_m_special1 button {
+    background-color: var(--bg-color-3);
 }
 
 .f_mail_1 button {
-    background-color: var(--bg-color-3);
+
     padding: 8px 9px;
     border-radius: 48%;
     border: none;
@@ -450,7 +445,7 @@ footer {
 }
 
 .f_d_btn {
-    background-color: var(--bg-color-2) !important;
+    background-color: var(--bg-color-2);
 }
 
 .f_logo {
@@ -458,25 +453,28 @@ footer {
 }
 
 .f_logo_inside {
-    text-align: end;
+    text-align: center;
 }
 
 .f_logo_inside img {
-    height: 55%;
+    height: 100px;
 }
 
 .f_address {
-    transform: translate(-125px, -25px);
+    display: flex;
+    justify-content: center;
 }
 
-.f_address p {
+.f_address address {
     white-space: pre;
-    color: var(--font-color-1);
 }
 
 .f_aboutus {
-    padding-left: 90px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
 }
+
 
 .f_aboutus ul a {
     text-decoration: none;
@@ -494,7 +492,7 @@ footer {
 }
 
 .f_payment {
-    padding-left: 119px;
+    padding-left: 70px;
     padding-bottom: 46px;
 }
 
@@ -507,12 +505,9 @@ footer {
 
 .copy_right {
     border-top: 1px solid var(--bg-color-2);
-    width: 86%;
-    margin-left: 86px;
     color: hsl(18, 11.9%, 32.9%);
     padding-bottom: 1px;
 }
-
 .copy_right p {
     letter-spacing: 0.7px;
 }
@@ -524,10 +519,26 @@ footer {
 @media screen and (max-width:1199px) {
     .nav_heading {
         margin-left: 0px;
-      }
+    }
+
     .acustom {
         padding: 0 80px;
     }
+}
+
+/* up to 1107px */
+
+@media screen and (max-width: 1107px) {
+    .f_payment {
+        padding-left: 51px;
+        padding-bottom: 101px;
+    }
+
+    .F_downld {
+
+        margin-top: 7px;
+    }
+
 }
 
 /* up to 1000px */
@@ -540,17 +551,23 @@ footer {
 
 /* up to 992px */
 @media screen and (max-width:991px) {
+    .f_aboutus ul a {
+        font-size: 16px;
+    }
+
     .navbar_list_0 .container-fluid {
         border-bottom: 2px solid var(--bg-color-2);
         margin-top: 7px;
-      }
+    }
+
     .nav_horse_logo img {
         z-index: 0;
         top: 59px;
         height: 150px;
-      }
+    }
+
     .slider_contain h4,
-    p {
+    .slider_contain p {
         font-size: 16px;
     }
 
@@ -565,13 +582,16 @@ footer {
 
 /* up to 767px */
 @media screen and (max-width:767px) {
+
     .nav_horse_logo img {
         top: 91px;
         left: 23px;
-      }
+    }
+
     .nav_heading {
         padding-left: 79px;
-      }
+    }
+
     .asd {
         padding-left: 72px;
         padding-top: 45px;
@@ -581,49 +601,78 @@ footer {
         padding-top: 45px;
         padding-left: 75px;
     }
+
+    .d_b_inside p {
+        font-size: 17px;
+    }
+
+    .d_b_btn {
+        padding: 8px 11px;
+
+    }
+
+    .download_brocher .d_b_inside {
+        height: 63px;
+    }
+
+    .f_other_details {
+        margin-left: -19px;
+    }
 }
 
 /* up to 576px */
 @media screen and (max-width: 575px) {
+
     .nav_search form {
         margin-right: 13px;
-      }
+    }
+
     .nav_icon_1 {
         padding: 0px;
-      }
+    }
+
     .nav_icon_2 img {
         height: 19px;
-      }
+    }
+
     .nav_icon_1 img {
         height: 19px;
-      }
-      .nav_search_icn img {
+    }
+
+    .nav_search_icn img {
         height: 19px;
-      }
+    }
+
     .nav_search .nav_search_icn {
         right: -3px;
         top: -8px;
-      }
+    }
+
     .nav_search input {
         height: 27px;
         font-size: 15px;
         width: 162px;
-      }
+    }
+
     .nav_heading {
         padding-left: 15px;
-      }
-      .nav_heading h1 {
+    }
+
+    .nav_heading h1 {
         font-size: 20px;
-      }
+    }
+
     .nav_0 a {
         font-size: 13px;
 
-      }
+    }
+
     .nav_horse_logo img {
         top: 93px;
         left: 3px;
         height: 85px;
-      }
+    }
+
     .acustom {
         padding: 0 70px;
     }
@@ -660,8 +709,7 @@ footer {
         transform: translateY(19px);
     }
 
-    .slider_contain h4,
-    p {
+    .slider_contain h4 {
         font-size: 12px;
     }
 
@@ -678,6 +726,53 @@ footer {
         height: 10px;
         width: 10px;
         transform: scale(0.8);
+    }
+
+    .S_M_fb p {
+        font-size: 10px;
+    }
+
+    .S_M_fb i {
+        font-size: 28px;
+    }
+
+    .S_M_fb img {
+
+        height: 26px;
+        width: 26px;
+    }
+
+    .download_brocher .d_b_inside {
+        height: 54px;
+        width: 320px;
+    }
+
+    .d_b_inside p {
+        font-size: 13px;
+
+    }
+
+    .d_b_btn {
+        padding: 5px 8px;
+    }
+
+    .f_mail_1 button {
+        padding: 4px 10px;
+    }
+
+    .f_other_details {
+        margin-left: -27px;
+        justify-content: center;
+        display: flex;
+    }
+
+    .f_payment {
+        text-align: center;
+    }
+
+    .footer_mail {
+
+        justify-content: center;
     }
 
 }
