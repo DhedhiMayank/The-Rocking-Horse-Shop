@@ -104,7 +104,7 @@ body {
 
 .navbar_list_0 li a {
     color: var(--bg-color-2);
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 0.2px;
 }
 
@@ -621,11 +621,6 @@ footer {
         font-size: 16px;
     }
 
-    .navbar_list_0 .container-fluid {
-        border-bottom: 2px solid var(--bg-color-2);
-        margin-top: 7px;
-    }
-
     .nav_horse_logo img {
         z-index: 0;
         top: 59px;
@@ -749,7 +744,7 @@ footer {
     }
     .main_slider .owl-next span,
     .main_slider .owl-prev span{
-        opacity: 0s;
+        opacity: 0;
     }
     .casd {
         padding-left: 40px;
