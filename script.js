@@ -1,0 +1,57 @@
+$(document).ready(function(){
+
+    $('.horse_slider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dot:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    });
+
+    $('.photo-slider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        dot:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    });
+
+    $('.main_slider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dot:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    })
+
+});

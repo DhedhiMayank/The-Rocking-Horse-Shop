@@ -8,7 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rocking Horse Shop</title>
-    <link rel="icon" href="./images/favicon.ico">
+    <link rel="icon" href="./images/favicon.ico"> 
+
+<!-- jquery script min js -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
 
     <!-- css for icon(font-awesome) -->
 
@@ -19,7 +25,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+    <!-- owl min css -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- owl theme min css -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -89,8 +109,31 @@
 
         </nav>
     </header>
-    <div class="main_picture ">
-        <img src="./images/three-rocking-horses.png" alt="three-rocking-horses">
+    <div class="owl-carousel owl-theme main_slider text-center">
+
+
+        <div class="item mb-4">
+            <div class="main_picture ">
+                <img src="./images/three-rocking-horses.png" alt="three-rocking-horses">
+        
+            </div>
+
+        </div>
+        <div class="item mb-4">
+            <div class="main_picture ">
+                <img src="./images/horse.png" alt="three-rocking-horses">
+        
+            </div>
+
+        </div>
+        <div class="item mb-4">
+            <div class="main_picture ">
+                <img src="./images/Background2.png" alt="three-rocking-horses">
+        
+            </div>
+
+        </div>
+
 
     </div>
     <div>
@@ -175,48 +218,123 @@
         </div>
 
     </div>
-    <div class="my_Slider">
-        <img src="./images/Background2.png" alt="Loading...">
-        <div class="star">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star-o" aria-hidden="true"></i>
+    
+    <div class="owl-carousel owl-theme photo-slider photo_slider text-center ">
+
+
+        <div class="item mb-4">
+            <div class="my_Slider">
+                <img src="./images/Background2.png" alt="Loading...">
+                <div class="star">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <div class="slider_contain text-center">
+                    <h4 class="mx-3 ">"Lorem ipsum, consectetur adipisicing elit. Voluptates odit repellendus
+                        maiores, vero magnam Lorem ipsumsit,consectetur adipisicing.Quidem nulla molestias porro enim quis
+                        numquam"</h4>
+                </div>
+                <div class="slider_address  text-center">
+                    <p>Lorraine wood, North Newbald</p>
+                </div>
+              
+            </div>
+
         </div>
-        <div class="slider_contain text-center">
-            <h4 class="mx-3 ">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odit repellendus
-                maiores, vero magnam Lorem ipsumsit,consectetur adipisicing.Quidem nulla molestias porro enim quis
-                numquam"</h4>
+        <div class="item mb-4">
+            <div class="my_Slider">
+                <img src="./images/Background2.png" alt="Loading...">
+                <div class="star">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <div class="slider_contain text-center">
+                    <h4 class="mx-3 ">"Lorem ipsum dolor sit amet,  elit. Voluptates odit repellendus
+                        maiores, vero magnam Lorem ipsumsit,consectetur adipisicing.Quidem nulla molestias porro enim quis
+                        numquam"</h4>
+                </div>
+                <div class="slider_address slider_contain text-center">
+                    <p>Lorraine wood, North Newbald</p>
+                </div>
+              
+            </div>
+
         </div>
-        <div class="slider_address slider_contain text-center">
-            <p>Lorraine wood, North Newbald</p>
+        <div class="item mb-4">
+            <div class="my_Slider">
+                <img src="./images/Background2.png" alt="Loading...">
+                <div class="star">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <div class="slider_contain text-center">
+                    <h4 class="mx-3 ">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odit repellendus
+                        maiores, vero magnam Lorem ipsumsit,consectetur adipisicing.Quidem porro enim quis numquam"</h4>
+                </div>
+                <div class="slider_address  text-center">
+                    <p>Lorraine wood, North Newbald</p>
+                </div>
+              
+            </div>
+
         </div>
-        <div class="slider_button slider_contain"> <button type="button"></button>
-            <button type="button"></button>
-            <button type="button"></button>
-        </div>
+
+
     </div>
+
     <section class="Featured_Product  col-12 bg-White">
         <h2>Featured Products </h2>
-        <div class="row ">
-            <div class="col-1 d-flex justify-content-center align-items-center">
-                <img src="./images/Arrow Left.png" alt="image">
+        <div class="row">
+            <div class="owl-carousel owl-theme horse_slider jadu text-center">
+
+
+                <div class="item  d-flex justify-content-center">
+
+                    <div class="text-center  border-0 random"><img src="./images/nHorse 1.png" alt="image"><img class="h_hover" src="./images/small-horse-hover.png" alt="">
+                        <p>Small Special Rocking Horse<br>£1,600.00</p>
+                    </div>
+                </div>
+                <div class="item  d-flex justify-content-center">
+                    <div class="text-center  border-0 random"><img src="./images/nzebra2.png" alt="image"><img class="h_hover" src="./images/zebra-hover.png" alt="">
+                        <p>Rocking Zebra<br>£2,650.00</p>
+                    </div>
+                </div>
+                <div class="item d-flex justify-content-center">
+                    <div class=" text-center  border-0 random"><img src="./images/nHorse 3.png" alt="image"><img class="h_hover" src="./images/T'Bred Horse hover.png" alt="">
+                        <p>Large Racing Rocking Horse 'Hero'<br>£3,350.00</p>
+                    </div>
+                </div>
+                <div class="item  d-flex justify-content-center">
+
+                    <div class="text-center  border-0 random"><img src="./images/nHorse 1.png" alt="image"><img class="h_hover" src="./images/small-horse-hover.png" alt="">
+                        <p>Small Special Rocking Horse<br>£1,600.00</p>
+                    </div>
+                </div>
+                <div class="item  d-flex justify-content-center">
+                    <div class="text-center  border-0 random"><img src="./images/nzebra2.png" alt="image"><img class="h_hover" src="./images/zebra-hover.png" alt="">
+                        <p>Rocking Zebra<br>£2,650.00</p>
+                    </div>
+                </div>
+                <div class="item d-flex justify-content-center">
+                    <div class=" text-center  border-0 random"><img src="./images/nHorse 3.png" alt="image"><img class="h_hover" src="./images/T'Bred Horse hover.png" alt="">
+                        <p>Large Racing Rocking Horse 'Hero'<br>£3,350.00</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-3 text-center"><img src="./images/nHorse 1.png" alt="image">
-                <p>Small Special Rocking Horse<br>£1,600.00</p>
-            </div>
-            <div class="col-4 text-center"><img src="./images/nzebra2.png" alt="image">
-                <p>Rocking Zebra<br>£2,650.00</p>
-            </div>
-            <div class="col-3 text-center"><img src="./images/nHorse 3.png" alt="image">
-                <p>Large Racing Rocking Horse 'Hero'<br>£3,350.00</p>
-            </div>
-            <div class="col-1 d-flex justify-content-center align-items-center"><img src="./images/Arrow Right.png"
-                    alt="image"></div>
         </div>
+
+
         <div class="d-flex justify-content-center download_brocher">
-            <div class="row d_b_inside">
+            <div class="row d_b_inside shadow">
                 <div class="col-1 d-flex align-items-center d_b_icn"><a href="#"><button class="btn d_b_btn"><img
                             src="./images/down.png" alt="ico"></button></a></div>
                 <div class="d-flex justify-content-start align-items-center col-11  d_b_text">
@@ -251,7 +369,7 @@
             <div class="col-12 col-sm-5 col-lg-6 py-3">
                 <div class="row">
                     <div class="col row m-2 footer_mail">
-                        <div class="d-flex justify-content-center align-items-center f_mail">
+                        <div class="d-flex justify-content-center align-items-center shadow f_mail">
                             <a class="f_mail_1 f_m_special1" href="mailto:info@rockinghorse.co.uk"><button class="btn"><i class="fa fa-envelope-o f_mail_1_1"
                                         aria-hidden="true"></i></button></a>
                             <div class="f_mail_2">
@@ -260,7 +378,7 @@
                         </div>
                     </div>
                     <div class=" col row m-2 footer_mail">
-                        <div class="d-flex justify-content-center align-items-center f_mail F_downld">
+                        <div class="d-flex justify-content-center align-items-center f_mail shadow F_downld">
                             <div class=" f_mail_1"><a href="#"><button class="btn f_d_btn"><i class="fa fa-download f_mail_1_1"
                                         aria-hidden="true"></i>
                                 </button></a></div>
@@ -332,7 +450,7 @@ info@rockinghorse.co.uk</address>
                     <img src="./images/cards copy.png" alt="image">
                 </div>
             </div>
-            <div class="px-4 copy_right">
+            <div class="px-4 copy_right text-center">
                 <P>
                     Copyrught &copy; The Rocking Horse Shop Ltd All Rights Reserved In England No. 3733336 Registere
                     offices:manor House Farm, Fangfoss, york Y041 5JH</P>
@@ -345,6 +463,15 @@ info@rockinghorse.co.uk</address>
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
+<!-- owl js cdn -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- int script js for owl slider -->
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
